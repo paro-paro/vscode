@@ -6,7 +6,7 @@ My quick setup for VS Code.
 
 ## Check also
 
-* [@paro-paro/dotfiles](https://github.com/paro-paro/vscode) - My dotfiles.
+* [@paro-paro/dotfiles](https://github.com/paro-paro/dotfiles) - My dotfiles.
 
 * [@paro-paro/paro-paro-solarized-dark](https://github.com/paro-paro/paro-paro-solarized-dark) - My VS Code theme.
 
