@@ -2,7 +2,7 @@
 
 My quick setup for VS Code.
 
-:rocket: :wrench: :boom: :sparkles:
+:rocket: :boom: :sparkles: :wrench:
 
 ## Check also
 
