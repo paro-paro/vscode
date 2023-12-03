@@ -1,1 +1,162 @@
-{}
+{
+  // editor
+  "editor.fontFamily": "Source Code Pro",
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true,
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.lineHeight": 24,
+  "editor.cursorStyle": "line-thin",
+  "editor.scrollbar.verticalScrollbarSize": 4,
+  "editor.scrollbar.horizontalScrollbarSize": 4,
+  "editor.scrollBeyondLastLine": false,
+  "editor.renderFinalNewline": "dimmed",
+  "editor.renderLineHighlight": "none",
+  "editor.guides.highlightActiveIndentation": false,
+  "editor.minimap.showSlider": "always",
+  "editor.bracketPairColorization.enabled": false,
+  "editor.accessibilitySupport": "off",
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.linkedEditing": true,
+  "editor.formatOnSave": false, // manual formatting
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true,
+    "source.organizeImports": false
+  },
+
+  // workbench
+  "workbench.colorTheme": "Paro Paro Solarized Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.fontAliasing": "antialiased",
+  "workbench.startupEditor": "none",
+  "workbench.list.smoothScrolling": true,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.tabCloseButton": "right",
+
+  // window
+  "window.nativeTabs": true, // macos only
+
+  // icons
+  "material-icon-theme.files.color": "#42a5f5",
+  "material-icon-theme.folders.theme": "classic",
+  "material-icon-theme.folders.color": "#90a4ae",
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.saturation": 1,
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.opacity": 1,
+  "material-icon-theme.files.associations": {
+    "**.env": "Settings",
+    "nirc": "npm",
+    "rc": "npm"
+  },
+
+  // git
+  "git.openRepositoryInParentFolders": "never",
+
+  // terminal
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.shellIntegration.enabled": false,
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+
+  // debugger
+  "debug.javascript.codelens.npmScripts": "never",
+
+  // files
+  "files.insertFinalNewline": true,
+  "files.eol": "\n",
+  "files.simpleDialog.enable": true,
+  "files.associations": {
+    ".env": "properties",
+    ".env.*": "properties",
+    "setup": "shellscript",
+    ".vimrc": "shellscript",
+    ".viminfo": "shellscript",
+    "nirc": "properties",
+    "rc": "properties",
+    "config": "properties",
+    "credentials": "properties",
+    ".nuxtrc": "properties"
+  },
+
+  // explorer
+  "explorer.confirmDragAndDrop": true,
+  "explorer.decorations.badges": false,
+  "explorer.compactFolders": false,
+
+  // extensions
+  "extensions.ignoreRecommendations": true,
+
+  // emmet
+  "emmet.useInlineCompletions": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": false,
+  "emmet.extensionsPath": ["/Users/antonio/Library/Application Support/Code/User"],
+
+  // liveServer
+  "liveServer.settings.port": 3000,
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  // copilot
+  "github.copilot.editor.enableCodeActions": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.editor.iterativeFixing": true,
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": true,
+    "plaintext": false,
+    "yaml": false
+  },
+
+  // eslint
+  "eslint.enable": false, // per project
+  "eslint.rules.customizations": [
+    { "rule": "stylistic/eol-last", "severity": "off" },
+    { "rule": "stylistic/no-trailing-spaces", "severity": "off" },
+    { "rule": "stylistic/no-multiple-empty-lines", "severity": "off" }
+  ],
+
+  // prettier
+  "prettier.enable": true,
+  "prettier.printWidth": 200,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+
+  // language overrides
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[graphql]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[shellscript]": {
+    "editor.tabSize": 4
+  }
+}
